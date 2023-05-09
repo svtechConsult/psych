@@ -16,7 +16,6 @@
 a {
     color: var(--color-links);
     text-decoration: none;
-    font-size: 0px;
 }
 
 a:hover {
@@ -3205,8 +3204,7 @@ my-title-font {
 
 my-hero-title-font {
 }
-
-@media (min-width: 1200px) {
-    my-hero-title-font {
-    }
+@media (min-width: 1200px) { 
+my-hero-title-font {
+} 
 }
