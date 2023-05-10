@@ -55,19 +55,19 @@
   --color-secondary-dark-rgb: 59, 83, 128;
 
   /* General colors */
-  --color-blue: #0d6efd;
+  --color-blue: #53b4ca;
   --color-blue-rgb: 13, 110, 253;
 
-  --color-indigo: #6610f2;
+  --color-indigo: #0a5d68;
   --color-indigo-rgb: 102, 16, 242;
 
-  --color-purple: #6f42c1;
+  --color-purple: #ddfaf8;
   --color-purple-rgb: 111, 66, 193;
 
-  --color-pink: #f3268c;
+  --color-pink: #616d79;
   --color-pink-rgb: 243, 38, 140;
 
-  --color-red: #df1529;
+  --color-red: #485664;
   --color-red-rgb: 223, 21, 4;
 
   --color-orange: #fd7e14;
@@ -125,11 +125,11 @@
   --bs-gray-900: #212529;
   --bs-primary: var(--color-blue);
   --bs-secondary: var(--color-blue);
-  --bs-success: #198754;
-  --bs-info: #0dcaf0;
-  --bs-warning: #ffc107;
-  --bs-danger: #dc3545;
-  --bs-light: #f8f9fa;
+  --bs-success: #53b4ca;
+  --bs-info: #0a5d68;
+  --bs-warning: #ddfaf8;
+  --bs-danger: #616d79;
+  --bs-light: #485664;
   --bs-dark: #212529;
   --bs-primary-rgb: var(--color-primary-rgb);
   --bs-secondary-rgb: var(--color-secondary-rgb);
