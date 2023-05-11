@@ -1,8 +1,6 @@
 <!DOCTYPE html> 
 <html lang="en"> 
     <head> 
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-JM3S9VDEKS"></script>
         <meta charset="utf-8"> 
         <meta content="width=device-width, initial-scale=1.0" name="viewport"> 
         <title>HeroBiz Bootstrap Template - Home 1</title>         
@@ -21,7 +19,6 @@
         <link href="assets/vendor/aos/aos.css" rel="stylesheet"> 
         <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"> 
         <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> 
-        <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
         <!-- Variables CSS Files. Uncomment your preferred color scheme -->         
         <link href="assets/css/variables.css" rel="stylesheet"> 
         <!-- <link href="assets/css/variables-blue.css" rel="stylesheet"> -->         
@@ -43,23 +40,32 @@
     <body> 
         <!-- ======= Header ======= -->         
         <header id="header" class="header fixed-top" data-scrollto-offset="0"> 
-            <div class="container-fluid d-flex align-items-center justify-content-between"> <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0"> <!-- Uncomment the line below if you also wish to use an image logo --> <!-- <img src="assets/img/logo.png" alt=""> --> <img src="assets/img/Logo.png" width="126"> </a> 
+            <div class="container-fluid d-flex align-items-center justify-content-between"> <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0"> <!-- Uncomment the line below if you also wish to use an image logo --> <!-- <img src="assets/img/logo.png" alt=""> --> <h1>HeroBiz<span>.</span></h1> </a> 
                 <nav id="navbar" class="navbar"> 
                     <ul> 
-                        <li>
-                            <a class="nav-link scrollto" href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a class="nav-link scrollto" href="index.html#about">About</a>
+                        <li class="dropdown"><a href="#"><span>Home</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a> 
+                            <ul> 
+                                <li><a href="index.html" class="active">Home 1 - index.html</a>
+                                </li>                                 
+                                <li><a href="index-2.html">Home 2 - index-2.html</a>
+                                </li>                                 
+                                <li><a href="index-3.html">Home 3 - index-3.html</a>
+                                </li>                                 
+                                <li><a href="index-4.html">Home 4 - index-4.html</a>
+                                </li>                                 
+                            </ul>                             
                         </li>                         
-                        <li>
-                            <a class="nav-link scrollto" href="index.html#services">Services</a>
+                        <li><a class="nav-link scrollto" href="index.html#about">About</a>
                         </li>                         
-                        <li>
-                            <a href="blog.html">Blog</a>
+                        <li><a class="nav-link scrollto" href="index.html#services">Services</a>
                         </li>                         
-                        <li class="dropdown megamenu">
-                            <a href="#"><span>Mega Menu</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a> 
+                        <li><a class="nav-link scrollto" href="index.html#portfolio">Portfolio</a>
+                        </li>                         
+                        <li><a class="nav-link scrollto" href="index.html#team">Team</a>
+                        </li>                         
+                        <li><a href="blog.html">Blog</a>
+                        </li>                         
+                        <li class="dropdown megamenu"><a href="#"><span>Mega Menu</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a> 
                             <ul> 
                                 <li> <a href="#">Column 1 link 1</a> <a href="#">Column 1 link 2</a> <a href="#">Column 1 link 3</a> 
                                 </li>                                 
@@ -71,35 +77,41 @@
                                 </li>                                 
                             </ul>                             
                         </li>                         
-                        <li class="dropdown"><a href="#"><span>Treatments</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a> 
+                        <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a> 
                             <ul> 
-                                <li>
-                                    <a href="ADHD.html">ADHD</a>
+                                <li><a href="#">Drop Down 1</a>
                                 </li>                                 
-                                <li class="dropdown">
-                                    <a href="anxiety.html"><span id="anxiety.html">Anxiety</span> </a> 
+                                <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a> 
+                                    <ul> 
+                                        <li><a href="#">Deep Drop Down 1</a>
+                                        </li>                                         
+                                        <li><a href="#">Deep Drop Down 2</a>
+                                        </li>                                         
+                                        <li><a href="#">Deep Drop Down 3</a>
+                                        </li>                                         
+                                        <li><a href="#">Deep Drop Down 4</a>
+                                        </li>                                         
+                                        <li><a href="#">Deep Drop Down 5</a>
+                                        </li>                                         
+                                    </ul>                                     
                                 </li>                                 
-                                <li>
-                                    <a href="depression.html">Depression</a>
+                                <li><a href="#">Drop Down 2</a>
                                 </li>                                 
-                                <li>
-                                    <a href="ptsd.html" id="ptsd.html">PTSD</a>
+                                <li><a href="#">Drop Down 3</a>
                                 </li>                                 
-                                <li>
-                                    <a href="bipolar.html">Bipolar Disorder</a>
+                                <li><a href="#">Drop Down 4</a>
                                 </li>                                 
                             </ul>                             
                         </li>                         
-                        <li>
-                            <a class="nav-link scrollto" href="index.html#contact">Contact</a>
+                        <li><a class="nav-link scrollto" href="index.html#contact">Contact</a>
                         </li>                         
                     </ul>                     <i class="bi bi-list mobile-nav-toggle d-none"></i> 
                 </nav>
-                <!-- .navbar -->                 <a class="btn-getstarted scrollto" href="appointments.html">Appointments</a> 
+                <!-- .navbar -->                 <a class="btn-getstarted scrollto" href="index.html#about">Get Started</a> 
             </div>             
         </header>
         <!-- End Header -->         
-        <section id="hero" class="hero-animated d-flex align-items-center">
+        <section id="hero-animated" class="hero-animated d-flex align-items-center"> 
             <div class="container d-flex flex-column align-items-center position-relative" data-aos="zoom-out">
                 <h2><span class="display-3"><i><b>Real</b></i> Psychiatric Services</span></h2> 
                 <p class="fs-1 fw-semibold h1">In Person &amp; Tele Psychiatry</p> 
@@ -709,12 +721,67 @@ Our mission is to increase accessibility to obtain mental health treatment while
         <!-- End #main -->         
         <!-- ======= Footer ======= -->         
         <footer id="footer" class="footer"> 
+            <div class="footer-content"> 
+                <div class="container"> 
+                    <div class="row"> 
+                        <div class="col-lg-3 col-md-6"> 
+                            <div class="footer-info"> 
+                                <h3>HeroBiz</h3> 
+                                <p> 
+                A108 Adam Street <br> 
+                NY 535022, USA<br><br> <strong>Phone:</strong> +1 5589 55488 55<br> <strong>Email:</strong> info@example.com<br> </p> 
+                            </div>                             
+                        </div>                         
+                        <div class="col-lg-2 col-md-6 footer-links"> 
+                            <h4>Useful Links</h4> 
+                            <ul> 
+                                <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a>
+                                </li>                                 
+                                <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a>
+                                </li>                                 
+                                <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a>
+                                </li>                                 
+                                <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a>
+                                </li>                                 
+                                <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a>
+                                </li>                                 
+                            </ul>                             
+                        </div>                         
+                        <div class="col-lg-3 col-md-6 footer-links"> 
+                            <h4>Our Services</h4> 
+                            <ul> 
+                                <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a>
+                                </li>                                 
+                                <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a>
+                                </li>                                 
+                                <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a>
+                                </li>                                 
+                                <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a>
+                                </li>                                 
+                                <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a>
+                                </li>                                 
+                            </ul>                             
+                        </div>                         
+                        <div class="col-lg-4 col-md-6 footer-newsletter"> 
+                            <h4>Our Newsletter</h4> 
+                            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p> 
+                            <form action="" method="post"> 
+                                <input type="email" name="email">
+                                <input type="submit" value="Subscribe"> 
+                            </form>                             
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </div>             
             <div class="footer-legal text-center"> 
-                <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
-                    <div class="copyright">&copy; Copyright <strong><span>Real Psychiatric Services</span></strong>. All Rights Reserved&nbsp; &nbsp;
-                    </div>
+                <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center"> 
                     <div class="d-flex flex-column align-items-center align-items-lg-start"> 
-</div>
+                        <div class="copyright"> 
+                            &copy; Copyright <strong><span>HeroBiz</span></strong>. All Rights Reserved
+                        </div>                         
+                    </div>                     
+                    <div class="social-links order-first order-lg-last mb-3 mb-lg-0"> <a href="#" class="twitter"><i class="bi bi-twitter"></i></a> <a href="#" class="facebook"><i class="bi bi-facebook"></i></a> <a href="#" class="instagram"><i class="bi bi-instagram"></i></a> <a href="#" class="google-plus"><i class="bi bi-skype"></i></a> <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a> 
+                    </div>                     
                 </div>                 
             </div>             
         </footer>
