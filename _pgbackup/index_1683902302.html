@@ -46,54 +46,30 @@
             <div class="container-fluid d-flex align-items-center justify-content-between"> <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0"> <!-- Uncomment the line below if you also wish to use an image logo --> <!-- <img src="assets/img/logo.png" alt=""> --> <img src="assets/img/Logo.png" width="126"> </a> 
                 <nav id="navbar" class="navbar"> 
                     <ul> 
-                        <li>
-                            <a class="nav-link scrollto" href="index.html">Home</a>
+                        <li><a class="nav-link scrollto" href="index.html">Home</a>
                         </li>
-                        <li>
-                            <a class="nav-link scrollto" href="index.html#about">About</a>
+                        <li><a class="nav-link scrollto" href="index.html#about">About</a>
                         </li>                         
-                        <li>
-                            <a class="nav-link scrollto" href="index.html#services">Services</a>
-                        </li>                                                  
-                        <li class="dropdown"><a href="blog.html"><span>Blog</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a> 
+                        <li><a class="nav-link scrollto" href="index.html#services">Services</a>
+                        </li>                         
+                        <li><a href="blog.html">Blog</a>
+                        </li>                         
+                        <li class="dropdown">
+                            <a href="#"><span>Treatments</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a> 
                             <ul> 
-                                <li>
-                                    <a href="blog-ADHD.html">ADHD</a>
+                                <li><a href="ADHD.html">ADHD</a>
                                 </li>                                 
-                                <li>
-</li>                                 
-                                <li>
-                                    <a href="blog-anxiety.html">Anxiety</a>
+                                <li><a href="anxiety.html">Anxiety</a>
                                 </li>                                 
-                                <li>
-                                    <a href="blog-PTSD.html" id="ptsd.html">PTSD</a>
+                                <li><a href="depression.html">Depression</a>
                                 </li>                                 
-                                <li>
-                                    <a href="blog-bipolar.html">Bipolar</a>
+                                <li><a href="ptsd.html" id="ptsd.html">PTSD</a>
                                 </li>                                 
-                            </ul>                             
-                        </li>
-                        <li class="dropdown"><a href="#"><span>Treatments</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a> 
-                            <ul> 
-                                <li>
-                                    <a href="ADHD.html">ADHD</a>
-                                </li>                                 
-                                <li>
-                                    <a href="anxiety.html">Anxiety</a>
-                                </li>                                 
-                                <li>
-                                    <a href="depression.html">Depression</a>
-                                </li>                                 
-                                <li>
-                                    <a href="ptsd.html" id="ptsd.html">PTSD</a>
-                                </li>                                 
-                                <li>
-                                    <a href="bipolar.html">Bipolar Disorder</a>
+                                <li><a href="bipolar.html">Bipolar Disorder</a>
                                 </li>                                 
                             </ul>                             
                         </li>                         
-                        <li>
-                            <a class="nav-link scrollto" href="index.html#contact">Contact</a>
+                        <li><a class="nav-link scrollto" href="index.html#contact">Contact</a>
                         </li>                         
                     </ul>                     <i class="bi bi-list d-none mobile-nav-toggle"></i> 
                 </nav>
@@ -104,10 +80,10 @@
         <section id="hero" class="hero-animated d-flex align-items-center">
             <div class="container d-flex flex-column align-items-center position-relative" data-aos="zoom-out">
                 <h2 class="text-center"><span class="display-5"><i><b>Real</b></i> Psychiatric Services</span></h2> 
-                <h2 class="fs-1 fw-semibold h1 text-center">In Person &amp; Tele Psychiatry</h2> 
+                <p class="fs-1 fw-semibold h1 text-center">In Person &amp; Tele Psychiatry</p> 
                 <div class="d-flex"> <a href="appointments.html" class="btn-get-started display-1 scrollto">Schedule an Appointment</a> 
                 </div>
-            </div>             <a href="anxiety.html">Anxiety</a>
+            </div>             
         </section>         
         <main id="main"> 
             <!-- ======= Featured Services Section ======= -->             
@@ -116,8 +92,8 @@
             <section id="about" class="about"> 
                 <div class="container" data-aos="fade-up"> 
                     <div class="pb-xl-2 section-header"> 
-                        <h1 class="display-5 fw-normal mb-xxl-4">Psychiatric Medication Management</h1> 
-                        <p>Welcome to Real Psychiatric Services, a leading provider of professional and compassionate psychiatric care in Columbus, Ohio. We offer personalized and evidence-based psychiatric treatment in person or via tele psychiatry sessions to properly diagnose and treat a variety of psychological disorders in order to improve your quality of life.</p> 
+                        <h2 class="display-2 fw-normal">About Us</h2> 
+                        <p>Welcome to Real Psychiatric Services, a leading provider of professional and compassionate mental health care. Our mission is to offer personalized and evidence-based psychiatric treatment to individuals and families in need. We understand that mental health is a critical aspect of overall well-being, and our dedicated team of experts is committed to helping you navigate life&apos;s challenges with confidence and resilience</p> 
                     </div>                     
                     <div class="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200"> 
                         <div class="col-lg-5 mt-xl-2 pt-lg-5 pt-xl-5"> 
@@ -129,34 +105,37 @@
                             <h3 class="fs-1 mt-xl-n5 pt-0 pt-lg-5 text-muted">Patient centered approach to Psychiatric Care&nbsp;&nbsp;</h3> 
                             <!-- Tabs -->                             
                             <ul class="nav nav-pills mb-3"> 
-                                <li><a class="nav-link active" data-bs-toggle="pill" href="#tab1">Services</a>
+                                <li>
+                                    <a class="nav-link active" data-bs-toggle="pill" href="#tab1">Services</a>
                                 </li>                                 
-                                <li><a class="nav-link" data-bs-toggle="pill" href="#tab2">Values</a>
+                                <li>
+                                    <a class="nav-link" data-bs-toggle="pill" href="#tab2">Values</a>
                                 </li>                                 
-                                <li><a class="nav-link" data-bs-toggle="pill" href="#tab3">Why Real Psychiatric Services?</a>
+                                <li>
+                                    <a class="nav-link" data-bs-toggle="pill" href="#tab3">Why Real Psychiatric Services?</a>
                                 </li>                                 
                             </ul>
                             <!-- End Tabs -->                             
                             <!-- Tab Content -->                             
                             <div class="tab-content"> 
                                 <div class="tab-pane fade show active" id="tab1"> 
-                                    <p class="fst-italic" style="font-family: 'Inter', sans-serif; color: #616d79;">Our mission is to revolutionize the field of psychiatric care by providing compassionate and comprehensive care to individuals facing mental health challenges. We aim to challenge the misdiagnoses and judgments that patients have experienced in the past, and to ensure that every person receives the care they truly need and deserve.</p>
+                                    <p class="fst-italic" style="font-family: 'Inter', sans-serif; color: #616d79;">Our mission is to revolutionize the field of psychiatric care by providing compassionate and comprehensive treatment to individuals facing mental health challenges. We aim to challenge the misdiagnoses and judgments that patients have experienced in the past, and to ensure that every person receives the care they truly need and deserve.</p>
                                     <div class="d-flex align-items-center mt-4"> <i class="bi bi-check2"></i> 
-                                        <h4 class="text-muted">Psychiatric Medication Management</h4> 
+                                        <h4 class="text-muted">Medication Management</h4> 
                                     </div>
-                                    <p style="font-family: 'Inter', sans-serif; color: #616d79;">Our certified nurse practitioners work closely with clients to properly diagnose your condition and develop a personalized mental health medication plan, monitor progress, and adjust meds as needed. It&apos;s important to note that the patient must follow directions in order to minimize side effects</p>
+                                    <p style="font-family: 'Inter', sans-serif; color: #616d79;">Our psychiatrists work closely with clients to develop a personalized medication plan, monitor progress, and adjust treatment as needed.</p>
                                     <div class="d-flex align-items-center mt-4"> <i class="bi bi-check2"></i> 
                                         <h4 class="text-muted">Telepsychiatry&nbsp;</h4> 
                                     </div>                                     
                                     <p style="font-family: 'Inter', sans-serif; color: #616d79;">We offer secure and convenient online appointments for clients who prefer remote sessions or have difficulty accessing in-person care</p>
                                     <div class="d-flex align-items-center mt-4"> <i class="bi bi-check2"></i> 
-                                        <h4 class="text-muted">Individual Adult Sessions</h4> 
+                                        <h4 class="text-muted">Individual Adult Therapy</h4> 
                                     </div>                                     
                                     <p style="font-family: 'Inter', sans-serif; color: #616d79;">Our experienced therapists work one-on-one with clients to address personal challenges, develop coping strategies, and foster personal growth.</p> 
                                 </div>
                                 <!-- End Tab 1 Content -->                                 
                                 <div class="tab-pane fade show" id="tab2"> 
-                                    <p class="fst-italic" style="font-family: 'Inter', sans-serif; color: #616d79;">We envision a future where mental health care is characterized by empathy, understanding, and personalized wellness plans. We strive for a world in which individuals facing mental health challenges are heard, supported, and empowered to live fulfilling lives. Dave&apos;s vision is to be a catalyst for positive change within the psychiatric field and to inspire others to prioritize compassionate and effective care.</p> 
+                                    <p class="fst-italic" style="font-family: 'Inter', sans-serif; color: #616d79;">We envision a future where mental health care is characterized by empathy, understanding, and personalized treatment plans. We strive for a world in which individuals facing mental health challenges are heard, supported, and empowered to live fulfilling lives. Dave&apos;s vision is to be a catalyst for positive change within the psychiatric field and to inspire others to prioritize compassionate and effective care.</p> 
                                     <div class="d-flex align-items-center mt-4"> <i class="bi bi-check2"></i> 
                                         <h4 class="text-muted">Compassion is the foundation of our practice</h4> 
                                     </div>                                     
@@ -187,7 +166,7 @@
                                     <div class="d-flex align-items-center mt-4"> <i class="bi bi-check2"></i> 
                                         <h4 class="text-muted">Accessibility</h4> 
                                     </div>                                     
-                                    <p style="color: #616d79; font-family: 'Inter', sans-serif;">With telepsychiatry services and flexible scheduling options, we strive to make mental health care accessible to everyone.</p> 
+                                    <p style="color: #616d79; font-family: 'Inter', sans-serif;">&nbsp;With telepsychiatry services and flexible scheduling options, we strive to make mental health care accessible to everyone.</p> 
                                     <div class="d-flex align-items-center mt-4"> <i class="bi bi-check2"></i> 
                                         <h4 class="text-muted">Expertise</h4> 
                                     </div>                                     
@@ -209,7 +188,7 @@
                         <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
                             <h2>Quality Medication Management&nbsp;</h2> 
                             <h3 class="fs-2 fst-italic fw-normal">From the privcy of you home</h3> 
-                            <p class="display-4 fw-light" style="font-family: 'Inter', sans-serif; color: #616d79;">We provide compassionate person-centered psychiatric counseling and medication management through a reliable internet audio/video connection for the entire state of Ohio. Effective Medication Management reduces the possibility of side effects while helping to manage symptoms. Our mission is to increase accessibility to obtain mental health treatment while treating patients like they are our family members. Whether you&apos;re suffering from anxiety, depression, mood disorders, or other mental health symptoms, make and appointment online today online today.</p>
+                            <p class="display-4 fw-light" style="font-family: 'Inter', sans-serif; color: #616d79;">We provide compassionate person-centered psychiatric counseling therapy and medication management through a reliable internet audio/video connection for the entire state of Ohio. Effective Medication Management reduces the possibility of side effects while helping to manage symptoms. Our mission is to increase accessibility to obtain mental health treatment while treating patients like they are our family members. Whether you&apos;re suffering from anxiety, depression, mood disorders, or other mental health symptoms, make and appointment online today.</p>
                             <p class="display-4 fw-light" style="font-family: 'Inter', sans-serif; color: #616d79;">Sorry - We do not prescribe controlled substances (e.g. Adderall, Vyvanse, Suboxone, Ambien, Xanax, Klonopin)</p> <a class="cta-btn align-self-start" href="#" id="appointments.html">Schedule an Appointment</a> 
                         </div>                         
                         <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center"> 
@@ -257,7 +236,7 @@
                             <div class="row gy-4"> 
                                 <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100"> 
                                     <h3 class="text-muted">ADHD</h3> 
-                                    <p class="fst-italic">Attention Deficit Hyperactivity Disorder (ADHD) is a neurodevelopmental disorder affecting both children and adults. It is characterized by symptoms such as inattention, impulsivity, and hyperactivity, which can significantly impact an individual&apos;s daily life, including their academic performance, work, and relationships.</p> 
+                                    <p class="fst-italic">Attention Deficit Hyperactivity Disorder (ADHD) is a neurodevelopmental disorder affecting both children and adults. It is characterized by symptoms such as inattention, impulsivity, and hyperactivity, which can significantly impact an individual&apos;s daily life, including their academic performance, work, and relationships.&nbsp;</p> 
                                     <ul> 
                                         <ul class="list-group"> 
                                             <li class="list-group-item">
@@ -280,9 +259,7 @@
                                                             <li spellcheck="false" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="8" medium-editor-index="51fdfec3-4d53-e868-c527-6e5317d60e8c" data-placeholder="Type your text" data-medium-focused="true">Lifestyle modifications include establishing a consistent daily routine, regular physical activity, and dietary changes</li>
                                                             <p>Real Psychiatric Services offers personalized consultation and treatment plans to manage ADHD effectively. They also accept major forms of healthcare insurance.</p>
                                                         </ul>
-                                                    </li>
-                                                    <a class="cta-btn align-self-start" href="#" id="anxiety.html">Learn More</a>
-                                                    <a class="align-self-start cta-btn display-6 fw-bolder" href="#" id="adhd.html">Learn More</a>
+                                                    </li><a class="cta-btn align-self-start" href="#" id="anxiety.html">Learn More</a><a class="align-self-start cta-btn display-6 fw-bolder" href="#" id="adhd.html">Learn More</a>
                                                 </ul>
                                             </li>                                             
                                         </ul>                                         
@@ -313,21 +290,27 @@
                             <div class="row gy-4"> 
                                 <div class="col-lg-8 order-2 order-lg-1"> 
                                     <h3>Anxiety</h3> 
-                                    <p>Real Psychiatric Services is dedicated to providing personalized mental illness treatment for individuals in Columbus, Ohio. Our team of professionals employs a comprehensive approach to manage anxiety, offering in-person consultations and telepsychiatry services. We understand the uniqueness of each person&apos;s experience and tailor treatment plans accordingly, aiming to help clients regain control of their lives;</p>
+                                    <p>Real Psychiatric Services is dedicated to providing personalized anxiety treatment for individuals in Columbus, Ohio. Our team of professionals employs a comprehensive approach to manage anxiety, offering in-person consultations and telepsychiatry services. We understand the uniqueness of each person&apos;s experience and tailor treatment plans accordingly, aiming to help clients regain control of their lives;</p>
                                     <p></p> 
                                     <ul> 
 </ul>                                     
                                     <ul class="list-group"> 
                                         <li class="list-group-item">
                                             <ul>
-                                                <li><b>Personalized anxiety treatment:</b> Real Psychiatric Services offers customized care plans to address each individual&apos;s specific needs.
+                                                <li>
+                                                    <b>Personalized anxiety treatment:</b> Real Psychiatric Services offers customized care plans to address each individual&apos;s specific needs.
                                                 </li>
                                                 <li>I<b>n-person consultations:</b> Our experienced professionals provide face-to-face consultations to assess and manage anxiety.
                                                 </li>
-                                                <li><b>T</b><b>elepsychiatry services:</b> We offer remote therapy sessions for clients who prefer virtual appointments.
+                                                <li>
+                                                    <b>T</b>
+                                                    <b>elepsychiatry services:</b> We offer remote therapy sessions for clients who prefer virtual appointments.
                                                 </li>
-                                                <li><b>Evidence-based interventions:</b> Our treatments are grounded in scientific research and proven methods.
-                                                </li><a class="align-self-start cta-btn display-6 fw-bolder" href="#" id="anxiety.html">Learn More</a><a class="cta-btn align-self-start" href="#" id="anxiety.html">Learn More</a>
+                                                <li>
+                                                    <b>Evidence-based interventions:</b> Our treatments are grounded in scientific research and proven methods.
+                                                </li>
+                                                <a class="align-self-start cta-btn display-6 fw-bolder" href="#" id="anxiety.html">Learn More</a>
+                                                <a class="cta-btn align-self-start" href="#" id="anxiety.html">Learn More</a>
                                             </ul>
                                         </li>                                         
                                     </ul>
@@ -359,7 +342,7 @@
                             <div class="row gy-4"> 
                                 <div class="col-lg-8 order-2 order-lg-1"> 
                                     <h3>Stress</h3> 
-                                    <p>Stress is a common experience that can have a significant impact on our mental and physical well-being. Effective treatment options for stress include both self-care strategies and professional interventions. Engaging in relaxation techniques, practicing mindfulness, seeking counseling, and making lifestyle modifications can all contribute to reducing stress levels and improving overall resilience.</p> 
+                                    <p>Stress is a common experience that can have a significant impact on our mental and physical well-being. Effective treatment options for stress include both self-care strategies and professional interventions. Engaging in relaxation techniques, practicing mindfulness, seeking counseling or therapy, and making lifestyle modifications can all contribute to reducing stress levels and improving overall resilience.</p> 
                                     <p class="fst-italic">Relaxation techniques: Deep breathing exercises, progressive muscle relaxation, and guided imagery can help promote relaxation and reduce stress.</p> 
                                     <ul> 
                                         <li>
@@ -370,8 +353,7 @@
                                         <li>
 </li>                                         
                                     </ul>
-                                    <ul>
-                                        <i class="bi bi-check-circle-fill"><li>Counseling or therapy: Seeking professional help through counseling or therapy can provide valuable support in exploring the root causes of stress and developing coping mechanisms.</li></i>
+                                    <ul><i class="bi bi-check-circle-fill"><li>Counseling or therapy: Seeking professional help through counseling or therapy can provide valuable support in exploring the root causes of stress and developing coping mechanisms.</li></i>
                                     </ul>                                     
                                 </div>                                 
                                 <div class="col-lg-4 order-1 order-lg-2 text-center"> 
@@ -384,8 +366,8 @@
                             <div class="row gy-4"> 
                                 <div class="col-lg-8 order-2 order-lg-1"> 
                                     <h3>Bipolar Disorder</h3> 
-                                    <p>Bipolar disorder is a complex mental health condition characterized by extreme mood swings that alternate between manic episodes and depressive episodes. Treatment for bipolar disorder typically involves a combination of medication, psychotherapy, and lifestyle adjustments. Engaging in self-care strategies, taking prescribed medications, and maintaining a stable routine are all important aspects of managing bipolar disorder.</p> 
-                                    <p class="fst-italic">medication: Mood stabilizers, antipsychotics, and antidepressants are commonly prescribed to help regulate mood and manage symptoms of bipolar disorder.</p> 
+                                    <p>Bipolar disorder is a complex mental health condition characterized by extreme mood swings that alternate between manic episodes and depressive episodes. Treatment for bipolar disorder typically involves a combination of medication, psychotherapy, and lifestyle adjustments. Engaging in self-care strategies, attending therapy sessions, taking prescribed medications, and maintaining a stable routine are all important aspects of managing bipolar disorder.</p> 
+                                    <p class="fst-italic">Medication: Mood stabilizers, antipsychotics, and antidepressants are commonly prescribed to help regulate mood and manage symptoms of bipolar disorder.</p> 
                                     <ul> 
                                         <li>
                                             <ul>
@@ -419,7 +401,7 @@
                 <div class="container" data-aos="fade-up"> 
                     <div class="section-header"> 
                         <h2 class="text-muted">What We Offer</h2> 
-                        <p class="mb-xxl-5">Real Psychiatric Services offers patients personalized care, utilizing experienced professionals to create tailored treatment plans, utilizing the latest industry information and technologies. By focusing on individual needs, we aim to enhance overall well-being and promote mental health recovery.</p> 
+                        <p>Real Psychiatric Services offers patients personalized care, utilizing experienced professionals to create tailored treatment plans, utilizing the latest industry information and technologies. By focusing on individual needs, we aim to enhance overall well-being and promote mental health recovery.</p> 
                     </div>                     
                     <div class="row gy-5"> 
                         <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200"> 
@@ -520,7 +502,8 @@
                             </div>                             
                             <div class="accordion accordion-flush px-xl-5" id="faqlist"> 
                                 <div class="accordion-item" data-aos="fade-up" data-aos-delay="200"> 
-                                    <h3 class="accordion-header"> <button class="accordion-button collapsed text-muted" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1"><i class="bi bi-question-circle question-icon"></i>
+                                    <h3 class="accordion-header"> <button class="accordion-button collapsed text-muted" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                                            <i class="bi bi-question-circle question-icon"></i>
                                             How do I make an appointment?
                                         </button> </h3> 
                                     <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist"> 
@@ -664,8 +647,7 @@
                                     </div>                                     
                                 </div>
                                 <!-- End Info Item -->                                 
-                                <div class="info-item d-flex">
-                                    <i class="bi bi-phone flex-shrink-0"></i> 
+                                <div class="info-item d-flex"><i class="bi bi-phone flex-shrink-0"></i> 
                                     <div> 
                                         <h4 class="text-muted">Call:</h4> 
                                         <p href="tel:+1&nbsp;&nbsp;614-427-3205">+1  614-427-3205</p> 
